@@ -51,7 +51,7 @@ def get_emotion(frame):
     return "No face detected"
 
 
-#위 모델 경량화 시킨 .tflite 사용
+####### 위 모델 경량화 시킨 .tflite 사용 ###########
 import cv2
 import numpy as np
 import tensorflow as tf
@@ -113,4 +113,5 @@ def get_emotion(frame):
         
         return expression_label
     
+
     return "No face detected"
